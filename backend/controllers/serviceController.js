@@ -1,6 +1,7 @@
 const Service = require ('../models/Service');
 
 //Creating new service
+
 // const createService = async (req, res) => {
 //     const {
 //         title,
@@ -84,4 +85,4 @@ module.exports = {
     getProviderServices,
     updateService,
     getAllServices,
-}
+};

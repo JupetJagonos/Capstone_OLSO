@@ -25,7 +25,7 @@ app.use(express.json()); // Parse JSON request bodies (because i can send a JSON
 
 //test the routes
 app.get("/", (req, res) => {
-    res.send("Capstone-Olso");
+    res.send("BACK END - OLSO");
 });
 
 
